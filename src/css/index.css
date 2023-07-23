@@ -574,7 +574,12 @@ body {
     }
 
     .mockup-content:nth-child(2) img {
+        display: block;
+        width: 100%;
+        height: 600px;
         margin-top: 48px;
+        object-fit: cover;
+        object-position: left;
     }
 
     .mockup-content p,
